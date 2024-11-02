@@ -1,0 +1,317 @@
+.page_1{
+  width: 100vw;
+  height: calc(90vh - 25vw);
+  background: var(--bg);
+   background: #FCFAF8;
+
+  font-family: var(--font_1st);
+  overflow: hidden;
+  
+}
+.page_1 .main_text {
+  padding-top: 15vw;
+  padding-left: 5vw;
+  padding-bottom: 20vw;
+}
+
+.top_main_text{
+ display: flex;
+ align-items: flex-start;
+justify-content: space-between;
+gap: 5vw;
+
+}
+
+.page_1 .main_text .main_text_h1{
+ font-size: 13vw;
+ font-family: var(--font_1st);
+ font-weight: 200;
+transform-style: preserve-3d;
+transform-origin: bottom center;
+letter-spacing: -0.4vw;
+color: #2F3736;
+}
+
+.top_main_text{
+  display: flex;
+}
+._a{
+  display: flex;
+  padding: 5vw 1vw;
+  justify-content: space-between;
+  gap: 11vw;
+    font-family: var(--font_1st);
+      color: var( --text_color_3rd);
+}
+._a p{
+      font-family: var(--font_1st);
+}
+._b{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+._b_svg img{
+
+width: 25vw;
+fill: var(--text_color_2nd);
+  
+}
+
+
+._2{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5vw;
+  height: 40vw;
+
+}
+
+
+
+
+.left_2{
+      position: relative;
+      width: 50%;
+      height: 100%;
+
+}
+.left_2 .img_1{
+  position: absolute;
+  z-index: 2;
+}
+
+.left_2 .img_2{
+  top: -6vw;
+  position: absolute;
+    z-index: 1;
+    left: -6vw;
+    transform: rotate(-10deg);
+    transform-origin: bottom center;
+    
+
+}
+
+.left_2 .img_3{
+  top: 6vw;
+  position: absolute;
+    z-index: 3;
+    left: 6vw;
+    transform: rotate(10deg);
+    transform-origin: bottom center;
+    
+
+}
+
+
+.img{
+  border-radius: 20px;
+width: 30vw;
+height: auto;
+position: absolute;
+top: 0;
+left: 0;
+height: 45vw;
+}
+
+.img img{
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+
+}
+
+.right_2{
+  width: 32%;
+  
+}
+.right_2 p{
+  font-size: 2.2vw;
+   font-family: var(--font_1st);
+   font-weight:300;
+   
+
+}
+
+
+
+@media (max-width: 600px) {
+.page_1{
+  background: var(--bg);
+  height: 100vh;
+  min-height: 213vh;
+}
+.page_1 .main_text {
+  padding-top: 0vw;
+  padding-left: 5vw;
+  padding-bottom: 20vw;
+}
+.top_main_text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 5vw;
+
+}
+.page_1 .main_text .main_text_h1 {
+  font-size: 13vw;
+  font-family: var(--font_1st);
+  font-weight: 200;
+  transform-style: preserve-3d;
+  transform-origin: bottom center;
+  letter-spacing: -0.4vw;
+  color: #2F3736;
+}
+.page_1 .main_text {
+  
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+
+._2 {
+  display: flex;
+  flex-direction: column;
+  padding: 0 5vw;
+  width: 100%;
+  height: auto;
+}
+
+
+
+.left_2 {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+
+
+
+.left_2 .img{
+  border-radius: 20px;
+width:60vw;
+height: auto;
+position: absolute;
+height: 100vw;
+top: 50%;
+left: 50%;
+object-fit: cover;
+transform: rotate(0) translateX(-50%) translateY(-50%);
+    transform-origin: center center;
+
+}
+
+.left_2 .img img{
+  
+  object-fit: cover;
+
+}
+
+
+
+.left_2 .img_1{
+  position: absolute;
+  z-index: 2;
+  transform: rotate(-2deg) translateX(-45%) translateY(-57%);
+    transform-origin: bottom center;
+
+}
+
+.left_2 .img_2{
+  position: absolute;
+    z-index: 1;
+    transform: rotate(-4deg) translateX(-50%) translateY(-73%);
+    transform-origin: bottom center;
+
+
+}
+
+.left_2 .img_3{
+  position: absolute;
+    z-index: 3;
+      transform: rotate(3deg) translateX(-40%) translateY(-40%);
+    transform-origin: bottom center;
+
+
+}
+
+
+
+.right_2 {
+  width: 100%;
+
+}
+
+.right_2 p {
+  font-size: 8vw;
+  font-family: var(--font_1st);
+  font-weight: 300;
+  line-height: 7.3vw;
+
+
+}
+
+
+.right_2 p span {
+  font-size: 8vw;
+  font-family: var(--font_2nd) !important;
+  font-weight: 300;
+  font-style: italic !important;
+  display: block;;
+    font-size: 8.2vw;
+
+
+
+}
+
+
+.right_2 h4{
+    font-family: var(--font_1st) !important;
+  font-weight: 300;
+  padding-bottom: 7vw;
+      font-size: 3.2vw;
+      color: var(--text_color_3rd);
+
+
+}
+
+
+.right_2 .contact{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 11vw;
+  gap: 4vw;
+      font-family: var(--font_1st) !important;
+  font-weight: 100 !important;
+
+}
+
+.right_2 .contact h3{
+        font-family: var(--font_1st) !important;
+  font-weight: 300 !important;
+  text-decoration: underline;
+text-transform: uppercase;
+        font-size: 3.2vw;
+
+}
+
+
+
+
+
+
+
+
+
+
+  
+  
+}

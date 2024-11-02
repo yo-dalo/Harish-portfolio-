@@ -1,0 +1,45 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: underline;
+  height: 25vw;
+  width: 100%;
+  padding: 0 4vw;
+  position: sticky;
+  top: 0;
+
+}
+
+nav li {
+  font-size: 1.1vw;
+  color: var(--text_color_4th);
+  list-style-type: none;
+}
+
+
+
+@media (max-width: 600px) {
+  nav {
+    height: 20vw;
+    padding: 0 6vw;
+
+  }
+
+  #nav_li_2,
+  #nav_li_3 {
+    display: none;
+  }
+
+  nav li {
+    font-size: 3vw;
+    color: #FFFFFF;
+
+  }
+
+
+
+
+
+
+}

@@ -1,0 +1,46 @@
+<svg id="Visual" xmlns="http://www.w3.org/2000/svg" viewBox="0 35 870 305">
+  <defs>
+    <clipPath id="clip-path-F">
+      <path d="M40,120 L40,180 L100,180 L100,160 L60,160 L60,140 L110,140 L110,120 Z"></path>
+    </clipPath>
+    <clipPath id="clip-path-A">
+      <path d="M160,200 L120,120 L140,120 L160,160 L180,120 L200,120 L160,200 Z"></path>
+    </clipPath>
+    <clipPath id="clip-path-S">
+      <path d="M260,140 C240,120 280,100 300,140 C320,180 260,200 260,220 C260,240 300,260 280,280"></path>
+    </clipPath>
+    <clipPath id="clip-path-T">
+      <path d="M360,120 L360,140 L380,140 L380,180 L420,180 L420,160 L400,160 L400,140 L420,140 L420,120 Z"></path>
+    </clipPath>
+    <clipPath id="clip-path-E">
+      <path d="M460,120 L460,180 L510,180 L510,160 L480,160 L480,140 L500,140 L500,120 Z"></path>
+    </clipPath>
+    <clipPath id="clip-path-R">
+      <path d="M560,120 L560,180 L580,180 L580,160 L560,140 L580,120 L600,140 L620,120 L580,180 Z"></path>
+    </clipPath>
+  </defs>
+  
+  <g clip-path="url(#clip-path-F)">
+    <line x1="40" y1="120" x2="110" y2="180" stroke="#52e0ed" stroke-width="30" />
+  </g>
+  
+  <g clip-path="url(#clip-path-A)">
+    <line x1="120" y1="120" x2="200" y2="200" stroke="#52e0ed" stroke-width="30" />
+  </g>
+  
+  <g clip-path="url(#clip-path-S)">
+    <line x1="260" y1="100" x2="280" y2="280" stroke="#52e0ed" stroke-width="30" />
+  </g>
+  
+  <g clip-path="url(#clip-path-T)">
+    <line x1="360" y1="120" x2="420" y2="180" stroke="#52e0ed" stroke-width="30" />
+  </g>
+  
+  <g clip-path="url(#clip-path-E)">
+    <line x1="460" y1="120" x2="510" y2="180" stroke="#52e0ed" stroke-width="30" />
+  </g>
+  
+  <g clip-path="url(#clip-path-R)">
+    <line x1="560" y1="120" x2="620" y2="180" stroke="#52e0ed" stroke-width="30" />
+  </g>
+</svg>
