@@ -105,3 +105,133 @@
 .page_6 .page_6_c .page_6_c_ .p6_c_lg {
   transform: scale(1.2) translateY(0.5vw);
 }
+
+
+@media (max-width: 600px) {
+
+.page_6 {
+  width: 100%;
+  min-height: 150vh;
+  background: #253B39;
+  color: #FFFFFF;
+  overflow: hidden;
+    background: #000000;
+
+}
+
+.page_6 .page_6_a {
+  width: 100%;
+  height: 20vh;
+  
+  text-align: center;
+  padding: 22vw 2vw;
+  position: relative;
+}
+
+.page_6 .page_6_a h1 {
+  font-size: 20vw;
+  font-weight: 300;
+  font-family: var(--font_1st); 
+
+}
+
+
+.page_6 .page_6_a .p6_arrow_svg {
+  position: absolute;
+  left: 3vw;
+  bottom: -2vw;
+  display: none;
+}
+
+
+
+.page_6 .page_6_a h1 li {
+  list-style-type: none;
+  line-height: 18vw;
+  letter-spacing: -1vw;
+
+}
+.page_6 .page_6_a h1 li span {
+  font-family: var(--font_2nd);
+  color: var(--text_color_2nd);
+
+}
+
+
+.page_6 .page_6_b {
+  margin-top: 20vw;
+  width: 100%;
+  height: 60vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 4vw;
+  gap: 4vw;
+  
+  flex-direction: column;
+
+}
+
+.page_6 .page_6_b div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #FFFFFF;
+  border-radius: 500px;
+  font-size: 4vw;
+  height: 16vw;
+
+  font-weight: 300;
+  font-family: var(--font_1st);
+
+}
+
+.page_6 .page_6_c {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding: 30vw 4vw;
+}
+
+.page_6 .page_6_c .page_6_c_ {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20vw;
+  font-size: 5vw;
+  border-top: 1px solid white;
+  width: 100%;
+  min-height: 25vw;
+}
+
+.page_6 .page_6_c .page_6_c_ .p6_c_tx {
+  font-weight: 100;
+  font-family: var(--font_1st);
+  font-size: 6vw;
+}
+
+.page_6 .page_6_c .page_6_c_ .p6_c_tx h3 {
+  font-weight: 200;
+  font-family: var(--font_1st);
+  font-size: 6vw;
+}
+
+.page_6 .page_6_c .page_6_c_ .p6_c_tx h5 {
+  font-weight: 100;
+  font-family: var(--font_1st);
+  font-size: 3vw;
+}
+
+
+.page_6 .page_6_c .page_6_c_ .p6_c_lg {
+  transform: scale(1.2) translateY(0.5vw);
+}
+
+
+
+
+
+}
