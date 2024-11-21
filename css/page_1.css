@@ -208,7 +208,7 @@ fill: var(--text_color_2nd);
 }
 ._b{
   display: flex;
-  align-items: center;
+  align-items: flex-start!important;
   justify-content: center;
 }
 

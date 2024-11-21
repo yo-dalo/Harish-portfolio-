@@ -3,3 +3,14 @@
   justify-content: center;
   align-items: center;
 }
+
+
+.ov-hidden{
+  
+  overflow: hidden;
+}
+
+.text_over{
+  overflow: hidden;
+}
+
